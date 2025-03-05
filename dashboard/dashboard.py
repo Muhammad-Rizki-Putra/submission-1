@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-customer_df = pd.read_csv("/visualisasi_banyak_customer.csv")
-delivery_slowest_df = pd.read_csv("/visualisasi_pengiriman_terlambat.csv")
-delivery_fastest_df = pd.read_csv("/visualisasi_pengiriman_tercepat.csv")
+customer_df = pd.read_csv("visualisasi_banyak_customer.csv")
+delivery_slowest_df = pd.read_csv("visualisasi_pengiriman_terlambat.csv")
+delivery_fastest_df = pd.read_csv("visualisasi_pengiriman_tercepat.csv")
 
 st.header("**Visualisasi Data Pelanggan**")
 
